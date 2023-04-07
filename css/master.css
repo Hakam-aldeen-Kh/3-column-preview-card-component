@@ -1,7 +1,9 @@
 * {
     box-sizing: border-box;
 }
-
+body {
+    background-color: hsl(0, 0%, 95%);
+}
 .parent {
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 300px));
